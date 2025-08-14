@@ -3,11 +3,11 @@
   become: yes
   tasks:
     - name: Install Nginx
-      apt:
+      ansible.builtin.dnf:
         name: nginx
-        state: latest
+        state: present
     - name: Ensure Nginx is running
-      systemd:
+      ansible.builtin.service:
         name: nginx
         state: started
         enabled: yes
