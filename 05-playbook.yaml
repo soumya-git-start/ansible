@@ -4,6 +4,7 @@
   vars_files:
     - course.yaml
   tasks:
+  - name: print
     ansible.builtin.debug:
       msg: "i am learnin {{Course}}"
 
