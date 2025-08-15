@@ -13,5 +13,5 @@
   tasks:
     - name: printing
       ansible.builtin.debug:
-        msg: i am learning {{course}},{{duration}},{{topic}},{{tools}}
+        msg: i am learning {{course}},{{duration}},{{topics}},{{tools}}
   
