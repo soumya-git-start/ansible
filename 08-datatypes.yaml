@@ -5,8 +5,8 @@
     course: "aes wity devops"
     duration: 120
     topics:
-      -aws
-      -devops
+      - aws
+      - devops
     tools:
       ci: jnekins
       container: docker
