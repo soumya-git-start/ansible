@@ -12,8 +12,6 @@
     ansible.builtin.debug:
       msg: "i am learnin {{Course}}"
   
-  
- 
   - name: printing
     vars: #task level
       Course: cloud
