@@ -1,6 +1,8 @@
 - name: variables
   hosts: local
   connection: local
+  vars_file:
+    -course.yaml
   vars: #play level variable
     Course: "aws with devops"
     trainer: Shiva
