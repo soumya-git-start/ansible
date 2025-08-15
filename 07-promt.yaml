@@ -1,0 +1,12 @@
+- name: promting
+  hosts: local
+  connection: local
+  vars_promt:
+    - name: Course
+      promt: "enter cpurse name"
+      private: false
+
+  tasks:
+    - name: printing
+      ansible.builtin.debug:
+        msg: "{{Course}}"
