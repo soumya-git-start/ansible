@@ -7,5 +7,4 @@
     - name: greater
       ansible.builtin.debug:
         msg: {{num}}
-  when: > 11
-
+  when: num < 13
