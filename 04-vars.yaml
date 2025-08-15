@@ -5,7 +5,7 @@
     Course: "aws with devops"
     trainer: Shiva
     duration: 120hrs
-    tasks:
+  tasks:
       - name: printing
         ansible.builtin.debug:
           msg: "am learning {{Course}} "
