@@ -1,9 +1,9 @@
 - name: promting
   hosts: local
   connection: local
-  vars_promt:
+  vars_prompt:
     - name: Course
-      promt: "enter cpurse name"
+      prompt: "enter cpurse name"
       private: false
 
   tasks:
