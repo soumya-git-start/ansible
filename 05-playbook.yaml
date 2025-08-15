@@ -5,4 +5,4 @@
     -course.yaml
   tasks:
     ansible.builtin.debug:
-      msg: {{Course}}
+      msg: "i am learnin {{Course}}"
