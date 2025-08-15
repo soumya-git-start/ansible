@@ -8,5 +8,5 @@
     tasks:
       - name: printing
         ansible.builtin.debug:
-          msg: i am learning {{Course}} trainer is {{trainer}} and duration is {{duration}}
+          msg: "am learning {{Course}} "
        
