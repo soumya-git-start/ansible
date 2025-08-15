@@ -1,12 +1,13 @@
 - name: variables in files
   hosts: local
   connection: local
+  vars_files:
+    - course.yaml
   vars: #play level variable
     Course: "aws with devops"
     trainer: Shiva
     duration: 120hrs
-  vars_files:
-    - course.yaml
+  
   tasks:
   - name: print
     ansible.builtin.debug:
