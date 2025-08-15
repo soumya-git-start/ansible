@@ -6,5 +6,5 @@
   tasks:
     - name: greater
       ansible.builtin.debug:
-        msg: {{num}}
-  when: num < 13
+        msg: "{{num}}""
+      when: num < 13
