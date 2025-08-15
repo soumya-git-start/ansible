@@ -3,7 +3,7 @@
   connection: local
   vars_prompt:
     - name: Course
-      prompt: "enter cpurse name"
+      prompt: "enter course name"
       private: false
 
   tasks:
