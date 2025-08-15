@@ -1,0 +1,11 @@
+- name: using when condition
+  host: local
+  connection: local
+  vars:
+    num: 12
+  tasks:
+    - name: greater
+      ansible.builtin.debug:
+        msg: {{num}}
+  when: > 11
+
