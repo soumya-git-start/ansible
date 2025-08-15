@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_file:
-    -course.yaml
+    - course.yaml
   tasks:
     ansible.builtin.debug:
       msg: "i am learnin {{Course}}"
